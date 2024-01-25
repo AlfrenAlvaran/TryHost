@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles Links -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <a href="index.html" class="logo">MyStore</a>
+            <div class="navbar">
+                <a href="#" class="nav-link">Phone</a>
+                <a href="#" class="nav-link">Laptop</a>
+                <a href="#" class="nav-link">Computer</a>
+                <a href="#" class="nav-link">Accessories</a>
+            </div>
+            <a href="cart.html">
+                <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            </a>
+        </div>
+    </header>
+    <!-- Cart -->
+    <section class="cart-container container">
+        <a href="index.html" class="back-homepage">
+            <i class='bx bx-chevron-left'></i>
+            <span>Back To Home</span>
+        </a>
+        <h2 class="cart-s-title">Shopping Cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems">
+                    <!-- js render -->
+                    <!-- <div class="cart-item">
+                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290312" alt="">
+                        <div class="cart-item-info">
+                            <h2 class="cart-item-title">Iphone 20</h2>
+                            <input type="number" 
+                                    name="" 
+                                    id="" 
+                                    min="1" 
+                                    data-id=""
+                                    value=""
+                                    class="cart-item-quantity"
+                                >
+                        </div>
+                        <h2 class="cart-item-price">100</h2>
+                        <button class="remove-from-cart" data-id="">remove</button>
+                    </div> -->
+                    <!-- end js render -->
+                </div>
+            </div>
+            <div class="cart-t">
+                <div class="cartTotal"></div>
+                <a href="#" class="checkout-btn">Checkout</a>
+            </div>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
